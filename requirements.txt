@@ -1,0 +1,8 @@
+
+numpy
+pandas
+requests
+shapely
+folium
+ipython
+jupyter
