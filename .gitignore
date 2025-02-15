@@ -1,3 +1,8 @@
+# Ignore data directories and results
+S2A_IMG_DATA/*
+S3A_DATA/*
+Results/*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
