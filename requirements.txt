@@ -1,0 +1,7 @@
+jupyter
+matplotlib
+netCDF4
+numpy
+rasterio
+scipy
+scikit-learn
