@@ -3,10 +3,10 @@
 This repository is an example of how off-shelf unsupervised machine learning algorithms can be trained to classify sea ice and leads (fractures in the sea ice where the ocean beneath is exposed). The notebook sea-ice-classification.ipynb contains the code used to read data and run the algorithms.
 
 ## Table of contents
-1. [Before you begin](#Before-you-begin)
-2. [Some words on unsupervised learning](#unsupervised-learning)
-3. [Results and concluding remarks](#Results)
-4. [Acknowledgements](#Acknowledgements)
+1. [Before you begin](#before-you-begin)
+2. [Some words on unsupervised learning](#some-words-on-unsupervised-learning)
+3. [Results and concluding remarks](#results-and-concluding-remarks)
+4. [Acknowledgements](#acknowledgements)
 
 ## Before you begin <a name="Before-you-begin"></a>
 
@@ -62,16 +62,16 @@ This notebook explores the K-Means algorithm and Gaussian Mixture Models (GMMs).
 
 ### K-Means classification of satallite images
 #### Only Band 9
-![](Results/KMeans_results.png)
+![](Readme-Visuals/KMeans_results.png)
 #### Combined bands
-![](Results/KMeans_combined_bands_results.png)
+![](Readme-Visuals/KMeans_combined_bands_results.png)
 ### GMM classification of satallite images
 #### Only Band 9
-![](Results/GMM_results.png)
+![](Readme-Visuals/GMM_results.png)
 #### Combined bands
-![](Results/GMM_combined_bands_results.png)
+![](Readme-Visuals/GMM_combined_bands_results.png)
 ### GMM classification of echo-radar
-![](Results/GMM_results_echo.png)
+![](Readme-Visuals/GMM_results_echo.png)
 
 The mountains in the upper right courner of the images clearly inhibited the performance of the clustering algorithms. Both GMM and K-Means managed to distinguish leads from sea ice when the number of clusters were set to 4 or 5 (one of the clusters was "used" for the awkard left triangle of the images, so it should in fact be considered 3 or 4 clusters). It is likely that 3 (2) clusters would have been sufficient if there were no mountains in the image (and if the image was complete).
 
